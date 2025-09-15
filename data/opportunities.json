@@ -1,1 +1,21 @@
-[]
+[
+  {
+    "id": "o1",
+    "title": "Enterprise Software Deal",
+    "value": 50000,
+    "stage": "Discovery",
+    "ownerId": "u3",
+    "leadId": "l3",
+    "createdAt": "2025-09-15T18:30:48.170Z",
+    "updatedAt": "2025-09-15T18:30:48.170Z"
+  },
+  {
+    "id": "o2",
+    "title": "Consulting Services",
+    "value": 25000,
+    "stage": "Proposal",
+    "ownerId": "u2",
+    "createdAt": "2025-09-15T18:30:48.170Z",
+    "updatedAt": "2025-09-15T18:30:48.170Z"
+  }
+]

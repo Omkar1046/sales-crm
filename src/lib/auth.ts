@@ -2,7 +2,7 @@ import jwt from 'jsonwebtoken';
 import bcrypt from 'bcryptjs';
 import { AuthUser } from '@/types';
 
-const JWT_SECRET = process.env.JWT_SECRET || 'your-secret-key-change-in-production';
+const JWT_SECRET = process.env.JWT_SECRET || 'your-secret-key-change-in-production==';
 
 export const hashPassword = async (password: string): Promise<string> => {
   return bcrypt.hash(password, 12);
@@ -21,7 +21,7 @@ export const generateToken = (user: AuthUser): string => {
       name: user.name,
     },
     JWT_SECRET,
-    { expiresIn: '7d' }
+    { expiresIn: '1000d' }
   );
 };
 

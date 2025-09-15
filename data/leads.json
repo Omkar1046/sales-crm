@@ -1,1 +1,32 @@
-[]
+[
+  {
+    "id": "l1",
+    "name": "John Doe",
+    "email": "john@example.com",
+    "phone": "555-0101",
+    "status": "New",
+    "ownerId": "u3",
+    "createdAt": "2025-09-15T18:30:48.170Z",
+    "updatedAt": "2025-09-15T18:30:48.170Z"
+  },
+  {
+    "id": "l2",
+    "name": "Jane Smith",
+    "email": "jane@example.com",
+    "phone": "555-0102",
+    "status": "Contacted",
+    "ownerId": "u3",
+    "createdAt": "2025-09-15T18:30:48.170Z",
+    "updatedAt": "2025-09-15T18:30:48.170Z"
+  },
+  {
+    "id": "l3",
+    "name": "Bob Johnson",
+    "email": "bob@example.com",
+    "phone": "555-0103",
+    "status": "Qualified",
+    "ownerId": "u2",
+    "createdAt": "2025-09-15T18:30:48.170Z",
+    "updatedAt": "2025-09-15T18:30:48.170Z"
+  }
+]
