@@ -14,9 +14,9 @@
 * Frontend: Next.js, React, plain CSS
 * Backend: Node.js, Express
 * Database: in-memory JSON
-* Deployment: Vercel (frontend), Railway (beckend)
+* Deployment: Vercel (frontend), Render (beckend)
 
 # Deployment Links
 
 * Frontend (Next.js): https://sales-crm-e73y-d9ad0oapl-omkar-kumbhars-projects-56a1d5ae.vercel.app/login
-* Backend (Express API): https://sales-crm-production-16ab.up.railway.app/
+* Backend (Express API): https://sales-crm-ak1z.onrender.com/
